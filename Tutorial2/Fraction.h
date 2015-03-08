@@ -1,3 +1,5 @@
+#ifndef FRACTION_H
+#define FRACTION_H
 
 class Fraction
 {
@@ -24,16 +26,17 @@ public:
 	double GetValue()
 	{
 		return value;
-	}
+	};
 
 	//Setters
 	void SetValue(double newValue)
 	{
 		value = newValue;
-	}
+	};
 
 private:
 
 	//current class fraction value
 	double value;
 };
+#endif
