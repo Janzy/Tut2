@@ -13,4 +13,4 @@ int main()
 	f1.Add(f2);
 	f1.Print();
 
-}
+};
